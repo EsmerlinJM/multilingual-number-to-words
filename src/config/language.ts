@@ -9,6 +9,15 @@ import {LAN} from "./interfaces"
         "and_currency": ["and","rupees", "paise", "point"]
     }
 
+    const  spanish:LAN = {
+        "single_digits": ["cero", "uno", "dos", "tres", "cuatro", "cinco", "seis", "siete", "ocho", "nueve"],
+        "teens": ["diez", "once", "doce", "trece", "catorce", "quince", "dieciséis", "diecisiete", "dieciocho", "diecinueve"],
+        "double_digits": ["cero", "diez", "veinte", "trenta", "cuarenta", "cincuenta", "sesenta", "setenta", "ochenta", "noventa"],
+        "crore_lakhs": ["cien", "mil", "cienmil", "diez millones"],
+        "million_billions": [ "cien", "mil", "millon","billon","trillon","quatrillon"],
+        "and_currency": ["and","rupees", "paise", "point"]
+    }
+
      const kananda:LAN = {
         "single_digits": ["ಶೂನ್ಯ", "ಒಂದು", "ಎರಡು", "ಮೂರು", "ನಾಲ್ಕು", "ಐದು", "ಆರು", "ಏಳು", "ಎಂಟು", "ಒಂಬತ್ತು"],
         "teens": ["ಹತ್ತು", "ಹನ್ನೊಂದು", "ಹನ್ನೆರಡು", "ಹದಿಮೂರು", "ಹದಿನಾಲ್ಕು", "ಹದಿನೈದು", "ಹದಿನಾರು", "ಹದಿನೇಳು", "ಹದಿನೆಂಟು", "ಹತ್ತೊಂಬತ್ತು"],
