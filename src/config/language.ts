@@ -15,7 +15,7 @@ import {LAN} from "./interfaces"
         "double_digits": ["cero", "diez", "veinte", "trenta", "cuarenta", "cincuenta", "sesenta", "setenta", "ochenta", "noventa"],
         "crore_lakhs": ["cien", "mil", "cienmil", "diez millones"],
         "million_billions": [ "cien", "mil", "millon","billon","trillon","quatrillon"],
-        "and_currency": ["and","rupees", "paise", "point"]
+        "and_currency": ["y", "rupias", "paisa", "punto"]
     }
 
      const kananda:LAN = {
@@ -54,6 +54,6 @@ import {LAN} from "./interfaces"
 
 
 
-export {english, kananda, telagu, hindi, marathi}
+export {english, kananda, telagu, hindi, marathi, spanish}
 
 
